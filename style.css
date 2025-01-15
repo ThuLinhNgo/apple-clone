@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(241, 157, 157);
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-icon {
+  background-image: url("apple-icon.png");
+  height: 48px;
+  width: 9px;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 0;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(241, 14, 14);
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 25px 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+.product-name {
+  text-align: center;
+  color: rgb(241, 14, 14);
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.product-link {
+  text-align: center;
+}
+
+.product-link a {
+  text-decoration: none;
+  color: rgb(241, 14, 14);
+}
+
+.product-link a:hover {
+  color: rgb(143, 143, 235);
+}
+
+.hero {
+  height: 600px;
+  background-image: url("hero_iphone_13pro_alternative.jpg");
+  background-size: 100% 70%;
+  margin-bottom: 0;
+}
+
+.sub-hero {
+  display: flex;
+  height: 300px;
+}
+
+.watch {
+  background-color: blue;
+  background-image: url("watch_large.jpg");
+  background-size: 100% 100%;
+  width: 25%;
+}
+
+.ipad {
+  background-image: url("ipad_pro_large.jpg");
+  background-size: 100% 100%;
+  width: 25%;
+}
+
+.iphone {
+  background-image: url("hero_iphone_13pro.jpg");
+  background-size: 100% 100%;
+  width: 25%;
+}
+
+.macbook {
+  background-image: url(macbook_large.jpg);
+  background-size: 100% 100%;
+  width: 25%;
+}
+.link {
+  margin-top: 50px;
+}
+
+.link a {
+  color: rgb(241, 14, 14);
+  text-decoration: none;
+  text-align: center;
+}
+
+.link a:hover {
+  color: rgb(143, 143, 235);
+}
+
+footer {
+  background-color: rgb(241, 157, 157);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-footer {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(241, 14, 14);
+}
+
+.shop-learn,
+.apple-store,
+.education-business,
+.account-apple,
+.about-apple {
+  width: 20%;
+}
+
+.shop-learn ul,
+.apple-store ul,
+.education-business ul,
+.account-apple ul,
+.about-apple ul {
+  list-style: none;
+}
+
+.shop-learn a,
+.apple-store a,
+.education-business a,
+.account-apple a,
+.about-apple a {
+  text-decoration: none;
+  color: rgb(241, 14, 14);
+  font-size: 15px;
+  padding-left: 0;
+}
+
+.shop-learn a:hover,
+.apple-store a:hover,
+.education-business a:hover,
+.account-apple a:hover,
+.about-apple a:hover {
+  color: rgb(143, 143, 235);
+}
+
+.second-footer {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid white;
+}
+.second-footer p {
+  color: rgb(241, 14, 14);
+  border-bottom: solid black;
+  border-width: 0 1em;
+}
+
+.second-footer a {
+  color: rgb(241, 14, 14);
+  text-decoration: none;
+}
+
+.second-footer a:hover {
+  color: rgb(143, 143, 235);
+}
+
+.last-footer {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.last-footer1 {
+  color: rgb(241, 14, 14);
+}
+
+.last-footer2 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.last-footer2 a {
+  text-decoration: none;
+  color: rgb(241, 14, 14);
+}
+
+.last-footer2 li {
+  padding-right: 5px;
+  border-right: solid white;
+}
