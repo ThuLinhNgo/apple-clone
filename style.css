@@ -8,16 +8,6 @@ header {
   background-color: rgb(241, 157, 157);
 }
 
-.navbar {
-  display: flex;
-}
-
-.nav-icon {
-  background-image: url("apple-icon.png");
-  height: 48px;
-  width: 9px;
-}
-
 .navbar ul {
   list-style: none;
   text-align: center;
@@ -25,14 +15,14 @@ header {
 }
 .navbar li {
   display: inline-block;
+  text-align: center;
 }
 .navbar a {
   text-decoration: none;
   color: rgb(241, 14, 14);
-  width: 100%;
   display: block;
-  text-align: center;
-  padding: 25px 50px;
+
+  padding: 25px 20px;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
@@ -46,7 +36,6 @@ header {
   text-align: center;
   color: rgb(241, 14, 14);
   font-weight: bold;
-  margin-top: 50px;
 }
 
 .product-link {
@@ -79,24 +68,28 @@ header {
   background-image: url("watch_large.jpg");
   background-size: 100% 100%;
   width: 25%;
+  object-fit: cover;
 }
 
 .ipad {
   background-image: url("ipad_pro_large.jpg");
   background-size: 100% 100%;
   width: 25%;
+  object-fit: cover;
 }
 
 .iphone {
   background-image: url("hero_iphone_13pro.jpg");
   background-size: 100% 100%;
   width: 25%;
+  object-fit: cover;
 }
 
 .macbook {
   background-image: url(macbook_large.jpg);
   background-size: 100% 100%;
   width: 25%;
+  object-fit: cover;
 }
 .link {
   margin-top: 50px;
