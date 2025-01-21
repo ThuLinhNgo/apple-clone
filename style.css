@@ -16,6 +16,7 @@ header {
 .navbar li {
   display: inline-block;
   text-align: center;
+  vertical-align: center;
 }
 .navbar a {
   text-decoration: none;
@@ -60,37 +61,26 @@ header {
 
 .sub-hero {
   display: flex;
-  height: 300px;
+  width: 100%;
 }
 
-.watch {
-  background-color: blue;
-  background-image: url("watch_large.jpg");
-  background-size: 100% 100%;
-  width: 25%;
-  object-fit: cover;
-}
-
-.ipad {
-  background-image: url("ipad_pro_large.jpg");
-  background-size: 100% 100%;
-  width: 25%;
-  object-fit: cover;
-}
-
-.iphone {
-  background-image: url("hero_iphone_13pro.jpg");
-  background-size: 100% 100%;
-  width: 25%;
-  object-fit: cover;
-}
-
+.watch,
+.ipad,
+.iphone,
 .macbook {
-  background-image: url(macbook_large.jpg);
-  background-size: 100% 100%;
   width: 25%;
-  object-fit: cover;
 }
+
+.watch img,
+.ipad img,
+.iphone img,
+.macbook img {
+  height: 300px;
+  object-fit: cover;
+
+  width: 100%;
+}
+
 .link {
   margin-top: 50px;
 }
